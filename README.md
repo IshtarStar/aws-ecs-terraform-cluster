@@ -2,7 +2,15 @@
 
 👉🏻👉🏼👉🏽👉🏾👉🏿 [Link to Tutorial](https://marc.it/how-to-create-an-ecs-cluster-using-terraform/)
 
-The project described uses Terraform, a cloud-agnostic Infrastructure as Code (IaC) tool, to provision and manage resources in Amazon Web Services (AWS). The project also utilizes Amazon Elastic Container Service (ECS) to orchestrate and manage Docker containers, and Amazon Elastic Container Registry (ECR) to store and distribute Docker images. Additionally, Amazon Virtual Private Cloud (VPC) is used to isolate and secure the resources, while Amazon Route 53 is used for DNS management. Finally, Amazon CloudWatch and CloudTrail are used for logging and monitoring, and AWS Identity and Access Management (IAM) is used to manage access and permissions to resources.
+Please modify the **_terraform.tfvars_** file by adding your own access and secret access keys.
+```
+aws_access_key = "<your-access-key>"
+aws_secret_key = "<your-secret-key>"
+```
+
+### The project described uses Terraform.
+
+A cloud-agnostic Infrastructure as Code (IaC) tool, to provision and manage resources in Amazon Web Services (AWS). The project also utilizes Amazon Elastic Container Service (ECS) to orchestrate and manage Docker containers, and Amazon Elastic Container Registry (ECR) to store and distribute Docker images. Additionally, Amazon Virtual Private Cloud (VPC) is used to isolate and secure the resources, while Amazon Route 53 is used for DNS management. Finally, Amazon CloudWatch and CloudTrail are used for logging and monitoring, and AWS Identity and Access Management (IAM) is used to manage access and permissions to resources.
 
 ### What does Amazon ECS stand for and how does it work?
 
